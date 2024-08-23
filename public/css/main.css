@@ -1,0 +1,24 @@
+:root {
+  --background-color: #ff5d18;
+}
+.bg_close {
+  background: rgba(0, 0, 0, 0.5);
+}
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+img {
+  width: 100%;
+  height: 00%;
+}
+.go-to button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.border-icon{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.slide-ft img{
+    border-radius:10px;
+}
