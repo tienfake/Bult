@@ -2,7 +2,7 @@
   --background-color: #ff5d18;
 }
 .bg_close {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
 .container {
   margin: 0 auto;
@@ -21,4 +21,9 @@ img {
 }
 .slide-ft img{
     border-radius:10px;
+}
+.hover-effect:hover .icon,
+.hover-effect:hover .text {
+    color: #ff5d18; 
+    transitions:0.3s;
 }

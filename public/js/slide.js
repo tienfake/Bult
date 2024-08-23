@@ -1,10 +1,28 @@
 var swiper = new Swiper(".dichVuLK", {
   slidesPerView: 4,
-  spaceBetween: 5,
-  freeMode: true,
+  spaceBetween: 7,
+  centeredSlides: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    375: {
+      slidesPerView: 3.5,
+      spaceBetween: 7,
+    },
+    410: {
+      slidesPerView: 3.75,
+      spaceBetween: 3,
+    },
+    420: {
+      slidesPerView: 4,
+      spaceBetween: 7,
+    },
   },
 });
 
