@@ -4,6 +4,12 @@
 .bg_close {
   background: rgba(0, 0, 0, 0.2);
 }
+.bg_money {
+  background: rgba(0, 0, 0, 0.1);
+}
+.bg_user{
+  background: linear-gradient(to bottom, #ff5d18, #ffffff);
+}
 .container {
   margin: 0 auto;
   padding-left: 1rem;
@@ -16,14 +22,20 @@ img {
 .go-to button {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.border-icon{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+.border-icon {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.slide-ft img{
-    border-radius:10px;
+
+.slide-ft img {
+  border-radius: 10px;
 }
 .hover-effect:hover .icon,
 .hover-effect:hover .text {
-    color: #ff5d18; 
-    transitions:0.3s;
+  color: #ff5d18;
+  transition: 0.3s;
+}
+.hover-info button:hover {
+  background: #ff5d18;
+  color: white;
+  transition: 0.3s;
 }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+
+<body>
+    <section class="bg-black h-full">
+        <div class="container fixed top-12">
+            <div class="container flex flex-col  px-4 rounded-xl border-icon bg-white">
+                <div class="flex flex-row items-center p-3 border-b-[1px] border-gray-500 space-x-3">
+                    <div class="vitri-icon text-base text-[#ff5d18]">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="text-vtri flex flex-col">
+                        <p class="text-xs text-gray-700">Điểm đón</p>
+                        <p class="font-semibold text-xs text-black">2Q67 + 3VP, Làng Phú Đô, Nam Từ Liêm, hà Nội,VietNam
+                        </p>
+                    </div>
+                </div>
+                <div class="">
+                    <form action="" method="get">
+                        <div class="flex flex-row space-x-3 pl-9 py-3 ">
+                            <div class="flex flex-col space-y-1">
+                                <label for="" class="text-xs text-gray-700">Ngày đi</label>
+                                <input type="date" value="2024-08-24"
+                                    class="border-[1px] border-gray-400 rounded-md font-medium">
+                            </div>
+                            <div class="flex flex-col space-y-1">
+                                <label for="" class="text-xs text-gray-700">Ngày về</label>
+                                <input type="date" value="2024-08-24"
+                                    class="border-[1px] border-gray-400 rounded-md font-medium">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="prev text-sm fixed top-3 left-4 ">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="close flex flex-row fixed top-2 right-4 bg_close text-white  space-x-5 py-[2px] px-4 rounded-2xl">
+            <div class="w-1/2">
+                <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+            </div>
+            <div class="w-1/2">
+                <a href="#"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="tim-tai-xe fixed bottom-0 left-0 right-0 border-black border-top-[1px] py-2 bg-white ">
+            <div class="container">
+                <div class="flex flex-col">
+                    <div class="flex flex-row justify-between rounded-xl bg-pink-100 p-1">
+                        <div class=" flex flex-row items-center space-x-3">
+                            <div class="icon-oto text-xl text-[#ff5d18]">
+                                <i class="fa-solid fa-car-side"></i>
+                            </div>
+                            <div class="text-sm font-medium">
+                                <p>Tìm tài xế theo ngày</p>
+                            </div>
+
+                        </div>
+                        <div class="icon-i text-base text-[#ff5d18]">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-row justify-center items-center space-x-3 mt-3">
+                        <div class="flex flex-row items-center space-x-3 px-3 border-r-[1px] border-gray-300">
+                            <div class="text-xl text-[#ff5d18]">
+                                <i class="fa-solid fa-money-bill"></i>
+                            </div>
+                            <p class="text-sm">Tiền mặt</p>
+                        </div>
+                        <div class="flex flex-row justify-between items-center  space-x-3 px-3 border-r-[1px] border-gray-300">
+                            <div class="text-xl text-[#ff5d18]">
+                                <i class="fa-solid fa-money-bill"></i>
+                            </div>
+                            <p class="text-sm">Tiền mặt</p>
+                        </div>
+                        <div class="flex flex-row items-center space-x-3 px-3 border-r-[1px] border-gray-300">
+                            <!-- <div class="text-xl text-[#ff5d18]">
+                                <i class="fa-solid fa-money-bill"></i>
+                            </div> -->
+                            <p class="text-sm">Tiền mặt</p>
+                        </div>
+                    </div>
+
+                    <div class="tim-but px-10 py-2 bg-[#ff5d18] text-center rounded-full mt-3 text-sm text-white">
+                        <button>Tìm tài xế theo ngày :975.000 đ</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="../public/js/slide.js"></script>
+
+</html>
