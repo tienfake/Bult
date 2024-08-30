@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+
+<body>
+    <div class="border-icon mb-4">
+        <div class="container">
+            <div class="flex flex-row justify-between items-center p-1">
+                <div class="flex flex-row items-center space-x-2">
+                    <div class="prev text-base ">
+                        <a href="index.html"><i class="fa-solid fa-angle-left"></i></a>
+                    </div>
+                    <div class="text-sm">
+                        <p>Điểm đến</p>
+                    </div>
+                </div>
+                <div class="flex flex-row items-center space-x-3">
+                    <div class="text-sm text-[#ff5d18]">
+                        <a href="chon-tu-map.html">
+                            <p>Chọn từ bản đồ</p>
+                        </a>
+                    </div>
+                    <div class="close flex flex-row bg_close text-white  space-x-5 py-[2px] px-4 rounded-2xl">
+                        <div class="w-1/2">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
+                        <div class="w-1/2">
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <form action="" method="post">
+            <div class="flex flex-col rounded-2xl border-icon  p-2">
+                <div class="flex flex-row space-x-2 items-center py-3 px-1 border-b-[1px] border-gray-300">
+                    <div class="text-sm text-[#ff5d18]">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="max-w-[80%] overflow-x-hidden text-sm max-h-6">
+                        <p class=" font-semibold text-black">01 Đ.Foresa 8B, KDT Tasco, Hà Nội, Vietnam</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center space-x-2 py-3 px-1 border-b-[1px] border-[#ff5d18]">
+                    <div class="text-sm text-[#ff5d18]">
+                        <i class="fa-solid fa-flag"></i>
+                    </div>
+                    <div class="">
+                        <input type="text" placeholder="Nhập điểm đến..."
+                            class="w-full border-none text-sm font-semibold text-gray-500 hover:border-none focus:outline-none">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="container">
+        <div class="flex flex-row items-center space-x-2 py-2 border-b-[0.5px] border-gray-300 mt-4">
+            <div class="">
+                <div class="text-sm text-white px-1 rounded-full bg-[#ff5d18]">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <p class="text-xs font-bold text-black">01</p>
+                <p class="text-[0.625rem] text-gray-500">01 Đ. Foresa 8B, KDT Tasco, Xuân Phương, Hà Nội, Vietnam</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="../public/js/slide.js"></script>
+
+</html>

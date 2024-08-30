@@ -35,3 +35,13 @@ var swiper = new Swiper(".slideBottom", {
   },
   speed: 1000,
 });
+
+var swiper = new Swiper(".slideNews", {
+  slidesPerView: 2.3,
+  spaceBetween: 10,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

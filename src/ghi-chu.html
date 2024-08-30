@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+
+<body>
+    <div class="border-icon mb-4">
+        <div class="container">
+            <div class="flex flex-row justify-between items-center p-1">
+                <div class="flex flex-row items-center space-x-2">
+                    <div class="prev text-base ">
+                        <a href="tai-xe-di-tinh.html"><i class="fa-solid fa-angle-left"></i></a>
+                    </div>
+                </div>
+                <div class="flex flex-row items-center space-x-3">
+                    <div class="text-sm font-semibold text-black">
+                        <a href="chon-tu-map.html">
+                            <p>Ghi chú cho tài xế</p>
+                        </a>
+                    </div>
+                    <div class="close flex flex-row bg_close text-white  space-x-5 py-[2px] px-4 rounded-2xl">
+                        <div class="w-1/2">
+                            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                        </div>
+                        <div class="w-1/2">
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <form action="" method="post" class="flex flex-col space-y-3 py-3 px-2 bg-white rounded-lg border-icon">
+            <div class="flex flex-row items-center space-x-2">
+                <div class="relative">
+                    <input type="checkbox" id="custom-checkbox" class="appearance-none w-4 h-4 border-2 border-[#ff5d18] rounded-sm checked:bg-[#ff5d18] focus:outline-none">
+                    <span class="absolute top-0 left-0 right-0 w-4 h-4 flex justify-center items-center pointer-events-none text-white text-sm"><i class="fa-solid fa-check"></i></span>
+                </div>                
+                <div class="text-sm">
+                    <p>Tài xế nữ</p>
+                </div>
+            </div>
+            <div class="flex flex-row items-center space-x-2">
+                <div class="relative">
+                    <input type="checkbox" id="custom-checkbox" class="appearance-none w-4 h-4 border-2 border-[#ff5d18] rounded-sm checked:bg-[#ff5d18] focus:outline-none">
+                    <span class="absolute top-0 left-0 right-0 w-4 h-4 flex justify-center items-center pointer-events-none text-white text-sm"><i class="fa-solid fa-check"></i></span>
+                </div>                
+                <div class="text-sm">
+                    <p>Nói được tiếng anh</p>
+                </div>
+            </div>
+            <div class="">
+                <input type="text" placeholder="Ghi chú cho tài xế..."
+                    class="bg-gray-100 w-full px-2 py-1 text-sm rounded-lg hover:border-none focus:outline-none">
+            </div>
+        </form>
+    </div>
+    <div  class="fixed bottom-0 left-0 right-0">
+        <div class="container ">
+            <div class="py-2 bg-[#ff5d18] rounded-full text-center text-white text-sm hover_all">
+                <button>Xác nhận</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="../public/js/slide.js"></script>
+
+</html>
