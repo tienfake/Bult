@@ -1,11 +1,19 @@
 :root {
   --background-color: #ff5d18;
+  --color:#ff5d18;
+}
+.bg_all{
+  background: var(--background-color);
+}
+.text_color{
+  color: var(--color);
 }
 .bg_close {
   background: rgba(0, 0, 0, 0.2);
 }
 .bg_money {
-  background: rgba(0, 0, 0, 0.1);
+  /* background: rgba(0, 0, 0, 0.1); */
+  background: rgba(255, 255, 255, 0.1);
 }
 .bg_user {
   background: linear-gradient(to bottom, #ff5d18, #ffffff);
@@ -14,6 +22,9 @@
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.hover_menu :hover{
+  color: #ff5d18;
 }
 img {
   width: 100%;
@@ -123,4 +134,26 @@ img {
 }
 .map {
   height: 100vh;
+}
+
+.loading-logo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-logo img {
+  width: 50px; 
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
