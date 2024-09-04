@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+}
 :root {
   --background-color: #ff5d18;
   --color:#ff5d18;
@@ -63,7 +67,7 @@ img {
 }
 @media (max-width: 320px) {
   .text_input {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
