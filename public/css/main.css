@@ -81,16 +81,12 @@ img {
 .text-tai-xe {
   font-size: 14px;
 }
-.hover-tt:hover {
-  background: #ff5d18;
-  transition: 0.5s;
-  color: white;
-}
 
 .hover_all:hover{
-  background: blue;
-  transition: 0.5s;
-  color: white;
+  transition: 0.3s;
+  color: #ff5d18;
+  background: white;
+  border: 1px solid #ff5d18;
 }
 
 .dropdown-menu {
