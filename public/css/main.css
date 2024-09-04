@@ -58,16 +58,16 @@ img {
 }
 
 .text_input {
-  font-size: 11px;
+  font-size: 14px;
 }
 @media (max-width: 375px) {
   .text_input {
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 @media (max-width: 320px) {
   .text_input {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
