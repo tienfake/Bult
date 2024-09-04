@@ -153,3 +153,10 @@ img {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+input[type="date"] {
+  width: 80px; /* Điều chỉnh chiều rộng của input */
+  height: 30px; /* Điều chỉnh chiều cao của input */
+  font-size: 14px; /* Điều chỉnh kích thước chữ */
+  padding: 5px; /* Điều chỉnh khoảng cách bên trong */
+}
