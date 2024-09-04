@@ -118,4 +118,9 @@ img {
   -o-object-fit: cover;
   object-fit: cover;
 }
-
+.img-avt img{
+  border-radius: 100%;
+}
+.map {
+  height: 100vh;
+}
