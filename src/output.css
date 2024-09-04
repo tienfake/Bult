@@ -736,10 +736,6 @@ video {
   height: 1rem;
 }
 
-.h-\[5rem\] {
-  height: 5rem;
-}
-
 .h-auto {
   height: auto;
 }
@@ -748,24 +744,12 @@ video {
   height: 100%;
 }
 
-.max-h-10 {
-  max-height: 2.5rem;
-}
-
 .max-h-6 {
   max-height: 1.5rem;
 }
 
 .max-h-\[50\%\] {
   max-height: 50%;
-}
-
-.max-h-\[80px\] {
-  max-height: 80px;
-}
-
-.min-h-\[80px\] {
-  min-height: 80px;
 }
 
 .w-1\/2 {
@@ -780,20 +764,12 @@ video {
   width: 1rem;
 }
 
-.w-\[5rem\] {
-  width: 5rem;
-}
-
 .w-\[75\%\] {
   width: 75%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[4\.75rem\] {
-  max-width: 4.75rem;
 }
 
 .max-w-\[80\%\] {
@@ -814,16 +790,8 @@ video {
   flex-direction: column;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -948,10 +916,6 @@ video {
   border-top-width: 0.5px;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
 .border-none {
   border-style: none;
 }
@@ -1011,11 +975,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1028,48 +987,8 @@ video {
   padding: 0.75rem;
 }
 
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[5\] {
-  padding: 5;
-}
-
-.p-\[5\%\] {
-  padding: 5%;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.p-\[50\%\] {
-  padding: 50%;
-}
-
-.p-\[10\%\] {
-  padding: 10%;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-\[100\] {
-  padding: 100;
-}
-
-.p-\[100\%\] {
-  padding: 100%;
-}
-
-.p-\[40\%\] {
-  padding: 40%;
 }
 
 .px-1 {
@@ -1152,28 +1071,32 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-\[\] {
-  padding-top: ;
-}
-
 .pt-\[100\%\] {
   padding-top: 100%;
-}
-
-.pt-\[50\%\] {
-  padding-top: 50%;
-}
-
-.pt-\[80\%\] {
-  padding-top: 80%;
 }
 
 .pt-\[40\%\] {
   padding-top: 40%;
 }
 
-.pt-\[00\%\] {
-  padding-top: 00%;
+.pt-\[50\%\] {
+  padding-top: 50%;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[30\%\] {
+  padding-top: 30%;
+}
+
+.pt-\[10\%\] {
+  padding-top: 10%;
+}
+
+.pt-\[20\%\] {
+  padding-top: 20%;
 }
 
 .text-left {
@@ -1195,10 +1118,6 @@ video {
 
 .text-\[0\.875rem\] {
   font-size: 0.875rem;
-}
-
-.text-\[1\.875rem\] {
-  font-size: 1.875rem;
 }
 
 .text-\[2\.25rem\] {
